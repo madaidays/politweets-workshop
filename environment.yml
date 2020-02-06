@@ -1,0 +1,13 @@
+name: politweets
+channels:
+  - conda-forge
+dependencies:
+  - python=3.5
+  - pandas
+  - numpy
+  - gensim
+  - scikit-learn
+  - pip:
+      - nltk==3.4.5
+      - spacy==2.1.8
+      - azure-storage==0.36.0
